@@ -22,8 +22,8 @@ export default function Home() {
         succeed.
       </p>
       <div className="flex flex-col space-y-8">
-        <Button className="text-lg py-8 px-16">Sign Up</Button>
-        <Button className="text-lg py-8 px-16">Login</Button>
+        <Link href="/register"><Button className="w-full text-lg py-8 px-16">Sign Up</Button></Link>
+        <Link href="/login"><Button className="w-full text-lg py-8 px-16">Login</Button></Link>
       </div>
     </main>
   );
