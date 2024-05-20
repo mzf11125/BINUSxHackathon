@@ -27,6 +27,8 @@ export default function LoginCard({message}: {message: string}) {
     if (error) {
       return redirect("/login?message=Could not authenticate user");
     }
+
+    return redirect("/user");
 };
 
   return (
